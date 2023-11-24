@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.root{
+    -fx-font-family: 'Black Ops One', cursive;
+    -fx-background-color: #F5EED8;
+    -fx-alignment: center;
+}
+
+#GameName{
+    -fx-font-family: 'Press Start 2P', cursive;
+    -fx-font-size: 30;
+}
+#mistertext{
+    -fx-font-size: 15;
+}
+#scoreLabel{
+    -fx-font-size: 15;
+}
+
+#uppertext{
+    -fx-font-family: 'Silkscreen', cursive;
+    -fx-font-size: 36;
+}
+
+.button:hover{
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+#Home{
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-image: url('Home.png');
+    -fx-background-size: 100%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+
+}
+#plus{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-image: url("plus.png");
+    -fx-background-size: 175%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#minus{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-image: url("minus.png");
+    -fx-background-size: 175%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#time{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-image: url("koon.png");
+    -fx-background-size: 175%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#div{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-image: url("divide.png");
+    -fx-background-size: 175%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#fac{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-image: url("fac.png");
+    -fx-background-size: 175%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#root{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-image: url("root.png");
+    -fx-background-size: 175%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#root2{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-image: url("root2.png");
+    -fx-background-size: 175%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#power{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-image: url("power.png");
+    -fx-background-size: 175%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#product{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-image: url("product.png");
+    -fx-background-size: 175%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#sigma{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-background-image: url("sigma.png");
+    -fx-background-size: 175%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#Next{
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-image: url("next.png");
+    -fx-background-size: contain;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#reBut{
+    -fx-pref-width: 50;
+    -fx-pref-height: 50;
+    -fx-background-image: url("restart.png");
+    -fx-background-size: 120%;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: transparent;
+}
+#num1,#num2,#num3,#num4{
+    -fx-wrap-text: true;
+    -fx-border-style: solid;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-width: 1;
+    -fx-border-color: black;
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-font-family: 'Silkscreen', cursive;
+    -fx-font-size: 27;
+}
+#timeLabel{
+    /*-fx-font-family: 'Silkscreen', cursive;*/
+    -fx-font-size: 15;
+}
+
+#endLabel{
+    -fx-font-size: 20 ;
+    -fx-text-alignment: center;
+}
+#clear{
+    -fx-font-size: 20;
+    -fx-background-color: transparent;
+}
+#gameendlabel{
+    -fx-text-alignment: center;
+    -fx-font-size: 70;
+}

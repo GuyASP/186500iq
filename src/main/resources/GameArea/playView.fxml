@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane fx:id="Root" prefHeight="700.0" prefWidth="800.0" stylesheets="@css/PlayArea.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GameArea.Areacontrol">
+   <children>
+      <Label fx:id="gameendlabel" alignment="CENTER" prefHeight="144.0" prefWidth="158.0" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+      <Button fx:id="reBut" layoutX="354.0" layoutY="192.0" mnemonicParsing="false" onAction="#retry" prefHeight="91.0" prefWidth="93.0" visible="false" GridPane.columnIndex="4" GridPane.rowIndex="13">
+         <GridPane.margin>
+            <Insets left="101.0" />
+         </GridPane.margin></Button>
+      <Label fx:id="endLabel" alignment="CENTER" layoutX="96.0" layoutY="308.0" prefHeight="66.0" prefWidth="615.0" text="-----------------------" GridPane.columnIndex="4" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+      <Button fx:id="plus" layoutX="67.0" layoutY="380.0" mnemonicParsing="false" onAction="#onClick2NumOp" prefHeight="164.0" prefWidth="154.0" GridPane.columnIndex="4" GridPane.rowIndex="11">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="minus" layoutX="181.0" layoutY="380.0" mnemonicParsing="false" onAction="#onClick2NumOp" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="11">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <GridPane.margin>
+            <Insets right="110.0" />
+         </GridPane.margin></Button>
+      <Button fx:id="time" layoutX="294.0" layoutY="380.0" mnemonicParsing="false" onAction="#onClick2NumOp" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="11">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <GridPane.margin>
+            <Insets left="110.0" />
+         </GridPane.margin></Button>
+      <Button fx:id="div" layoutX="409.0" layoutY="380.0" mnemonicParsing="false" onAction="#onClick2NumOp" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="11">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="root" layoutX="294.0" layoutY="508.0" mnemonicParsing="false" onAction="#onClick2NumOp" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="12">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <GridPane.margin>
+            <Insets left="110.0" />
+         </GridPane.margin></Button>
+      <Button fx:id="power" layoutX="638.0" layoutY="380.0" mnemonicParsing="false" onAction="#onClick2NumOp" prefWidth="230.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="12">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <GridPane.margin>
+            <Insets right="110.0" />
+         </GridPane.margin></Button>
+      <Label fx:id="uppertext" alignment="CENTER" layoutX="171.0" layoutY="105.0" prefHeight="65.0" prefWidth="446.0" text="click start when you are ready" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP" />
+      <Button fx:id="clear" disable="true" layoutX="378.0" layoutY="642.0" mnemonicParsing="false" onAction="#clear" prefHeight="44.0" prefWidth="121.0" text="clear" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="13">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="fac" layoutX="525.0" layoutY="380.0" mnemonicParsing="false" onAction="#onClick1NumOp" GridPane.columnIndex="5" GridPane.rowIndex="12">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin></Button>
+      <Button fx:id="sigma" layoutX="525.0" layoutY="508.0" mnemonicParsing="false" onAction="#onClick2NumOp" GridPane.columnIndex="4" GridPane.halignment="LEFT" GridPane.rowIndex="12">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <GridPane.margin>
+            <Insets />
+         </GridPane.margin></Button>
+      <Button fx:id="product" layoutX="181.0" layoutY="508.0" mnemonicParsing="false" onAction="#onClick2NumOp" GridPane.columnIndex="3" GridPane.halignment="RIGHT" GridPane.rowIndex="12">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <GridPane.margin>
+            <Insets right="10.0" />
+         </GridPane.margin></Button>
+      <Button fx:id="root2" layoutX="409.0" layoutY="508.0" mnemonicParsing="false" onAction="#onClick1NumOp" prefHeight="145.0" prefWidth="140.0" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="12">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="Next" disable="true" layoutX="509.0" layoutY="629.0" mnemonicParsing="false" onAction="#next" prefHeight="53.0" prefWidth="75.0" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="13">
+         <GridPane.margin>
+            <Insets right="100.0" />
+         </GridPane.margin>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="scoreLabel" layoutX="718.0" layoutY="48.0" prefHeight="30.0" prefWidth="31.0" text="D" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets right="-15.0" />
+         </GridPane.margin></Label>
+      <Label fx:id="timeLabel" layoutX="53.0" layoutY="117.0" prefHeight="53.0" prefWidth="90.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Button fx:id="Home" layoutX="43.0" layoutY="33.0" mnemonicParsing="false" onAction="#stage_to_home" prefHeight="60.0" prefWidth="51.0" GridPane.columnIndex="2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Text fx:id="mistertext" layoutX="638.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Score:" GridPane.columnIndex="5" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets left="10.0" />
+         </GridPane.margin></Text>
+      <Text fx:id="GameName" layoutX="243.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="18650iq" textAlignment="CENTER" wrappingWidth="331.5999450683594" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+      <Label fx:id="titlelabel" style="-fx-font-size: 20;" text="Make equation" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
+      <Button fx:id="num3" disable="true" layoutX="409.0" layoutY="192.0" mnemonicParsing="false" onAction="#onClickNum" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <GridPane.margin>
+            <Insets right="110.0" />
+         </GridPane.margin></Button>
+      <Button fx:id="num2" disable="true" layoutX="294.0" layoutY="192.0" mnemonicParsing="false" onAction="#onClickNum" textOverrun="CENTER_WORD_ELLIPSIS" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <GridPane.margin>
+            <Insets right="115.0" />
+         </GridPane.margin></Button>
+      <Button fx:id="num1" disable="true" layoutX="181.0" layoutY="192.0" mnemonicParsing="false" onAction="#onClickNum" GridPane.columnIndex="4" GridPane.rowIndex="2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Button fx:id="num4" disable="true" layoutX="525.0" layoutY="192.0" mnemonicParsing="false" onAction="#onClickNum" GridPane.columnIndex="4" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints maxWidth="610.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="610.0" minWidth="0.0" prefWidth="0.0" />
+      <ColumnConstraints maxWidth="610.0" minWidth="0.0" prefWidth="60.0" />
+      <ColumnConstraints maxWidth="610.0" minWidth="25.0" prefWidth="125.0" />
+      <ColumnConstraints maxWidth="564.0" minWidth="10.0" prefWidth="430.0" />
+      <ColumnConstraints maxWidth="498.0" minWidth="10.0" prefWidth="185.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="88.0" minHeight="10.0" prefHeight="73.0" />
+      <RowConstraints maxHeight="170.0" minHeight="10.0" prefHeight="54.0" />
+      <RowConstraints maxHeight="260.0" minHeight="0.0" prefHeight="258.0" />
+      <RowConstraints maxHeight="120.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="85.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="85.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="85.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="85.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="85.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="85.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="149.0" minHeight="0.0" prefHeight="0.0" />
+      <RowConstraints maxHeight="105.0" minHeight="41.0" prefHeight="105.0" />
+      <RowConstraints maxHeight="127.0" minHeight="41.0" prefHeight="127.0" />
+      <RowConstraints maxHeight="105.0" minHeight="41.0" prefHeight="83.0" />
+   </rowConstraints>
+</GridPane>

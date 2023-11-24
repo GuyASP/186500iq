@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.root{
+    -fx-background-image: url('fpbg.png');
+    -fx-background-repeat: repeat;
+    -fx-background-position: bottom;
+    -fx-background-size: 60%;
+    -fx-background-color: #F5EED8;
+}
+
+#Gamename{
+    -fx-text-fill: black;
+    -fx-font-family: 'Press Start 2P', cursive;
+    -fx-font-size: 60;
+}
+.button:hover{
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+#Play{
+    -fx-background-image: url("start.png");
+    -fx-background-size: cover;
+    -fx-background-color: transparent;
+
+}
